@@ -1,0 +1,160 @@
+/****************Navigation*************/
+
+.nav-bar {
+	@extend %centered;
+}
+
+.nav-links {
+	margin-bottom: 100px;
+}
+
+.nav-bar h1 {
+	font-family: $fontFamilyStack;
+	font-size: $navFontSizeOne ;
+
+	@include desktop {
+		float: left;
+		margin-left: 100px;
+		margin-right: 70px;
+	}
+}
+
+.nav-links {
+	
+	li {
+		padding: 15px 0;
+		font-family: $fontFamilyStack;
+		font-weight: bold;
+		font-size: $navFontSizeTwo ;
+
+		@include tablet {
+			display: inline-block;
+  			padding-right: 35px;
+		}
+
+		@include desktop {
+			display: inline-block;
+			margin-top: 10px;
+			font-size: 20px;
+			padding-right: 45px;
+		}
+	}
+}
+
+
+
+/****************Header***************/
+
+.studentInfo {
+	@extend %centered;
+}
+
+
+
+.studentInfo p {
+	margin-bottom: 150px;
+	font-family: $fontFamilyStack;
+
+	@include tablet {
+		text-align: left;
+	}
+
+	@include desktop {
+		max-width: 40%;
+		float: right;
+		margin-right: 100px;
+		text-align: left;
+	}
+}
+
+/**************Main Content***********/
+
+#portfolio, #contact {
+	@extend %centered;
+	font-family: $fontFamilyStack;
+}
+
+#portfolio h2 {
+	margin-bottom: 65px;
+	font-size: $mainFontSize ;
+
+	@include tablet {
+		clear: left;
+	}
+
+	@include desktop {
+		clear: left;
+	}
+}
+
+.portfolio-gallery li {
+	margin-bottom: 100px;
+	@extend %widthonehundred;
+
+	@include tablet {
+		max-width: 40%;
+  		display: inline-block;
+  		padding-right: 20px;
+	}
+
+	@include desktop {
+	 	max-width: 30%;
+  		display: inline-block;
+  		padding-right: 15px;
+	} 
+}
+
+
+#contact {
+	margin-bottom: 100px;
+
+	p {
+		@include tablet {
+			max-width: 40%;
+  			margin: 0 auto 35px;  
+		}
+	}
+}
+
+#contact h2 {
+	font-size: $mainFontSize ;
+}
+
+#phoneNumber, #emailAddress {
+	font-weight: bold;
+}
+
+
+
+/****************Footer***************/
+
+.ftr-nav-links {
+	float: right;
+}
+
+
+.ftr-nav-links li {
+	display: inline-block;
+	padding-right: 7px;
+	font-size: $footFontSizeOne ;
+
+	@include tablet {
+		padding-right: 10px;
+	}
+
+	@include desktop {
+		font-size: 15px;
+	}
+}
+
+
+.footer h2 {
+	margin-bottom: -40px;
+	font-size: $footFontSizeTwo;
+
+	@include desktop {
+		margin-bottom: -40px;
+		font-size: 25px;
+	}
+
+}

@@ -1,0 +1,142 @@
+/**************General Styles************/
+a {
+  text-decoration: none;
+  color: inherit; }
+
+a:visited {
+  color: black; }
+
+ul {
+  list-style: none; }
+
+.nav-bar, .studentInfo, #portfolio, #contact {
+  text-align: center; }
+
+.portfolio-gallery img, .portfolio-gallery li {
+  max-width: 100%; }
+
+.profile-pic {
+  margin: auto;
+  margin-bottom: 35px; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .profile-pic {
+      float: left;
+      margin-bottom: 150px; } }
+  @media (min-width: 1024px) {
+    .profile-pic {
+      float: left;
+      margin: 0 0 100px 100px; } }
+
+.nav-bar, .studentInfo, #portfolio, #contact {
+  text-align: center; }
+
+.portfolio-gallery img, .portfolio-gallery li {
+  max-width: 100%; }
+
+/****************Navigation*************/
+.nav-links {
+  margin-bottom: 100px; }
+
+.nav-bar h1 {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 35px; }
+  @media (min-width: 1024px) {
+    .nav-bar h1 {
+      float: left;
+      margin-left: 100px;
+      margin-right: 70px; } }
+
+.nav-links li {
+  padding: 15px 0;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 25px; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .nav-links li {
+      display: inline-block;
+      padding-right: 35px; } }
+  @media (min-width: 1024px) {
+    .nav-links li {
+      display: inline-block;
+      margin-top: 10px;
+      font-size: 20px;
+      padding-right: 45px; } }
+
+/****************Header***************/
+.studentInfo p {
+  margin-bottom: 150px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .studentInfo p {
+      text-align: left; } }
+  @media (min-width: 1024px) {
+    .studentInfo p {
+      max-width: 40%;
+      float: right;
+      margin-right: 100px;
+      text-align: left; } }
+
+/**************Main Content***********/
+#portfolio, #contact {
+  font-family: "Trebuchet MS", Helvetica, sans-serif; }
+
+#portfolio h2 {
+  margin-bottom: 65px;
+  font-size: 30px; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    #portfolio h2 {
+      clear: left; } }
+  @media (min-width: 1024px) {
+    #portfolio h2 {
+      clear: left; } }
+
+.portfolio-gallery li {
+  margin-bottom: 100px; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .portfolio-gallery li {
+      max-width: 40%;
+      display: inline-block;
+      padding-right: 20px; } }
+  @media (min-width: 1024px) {
+    .portfolio-gallery li {
+      max-width: 30%;
+      display: inline-block;
+      padding-right: 15px; } }
+
+#contact {
+  margin-bottom: 100px; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    #contact p {
+      max-width: 40%;
+      margin: 0 auto 35px; } }
+
+#contact h2 {
+  font-size: 30px; }
+
+#phoneNumber, #emailAddress {
+  font-weight: bold; }
+
+/****************Footer***************/
+.ftr-nav-links {
+  float: right; }
+
+.ftr-nav-links li {
+  display: inline-block;
+  padding-right: 7px;
+  font-size: 12px; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .ftr-nav-links li {
+      padding-right: 10px; } }
+  @media (min-width: 1024px) {
+    .ftr-nav-links li {
+      font-size: 15px; } }
+
+.footer h2 {
+  margin-bottom: -40px;
+  font-size: 15px; }
+  @media (min-width: 1024px) {
+    .footer h2 {
+      margin-bottom: -40px;
+      font-size: 25px; } }
+
+/*# sourceMappingURL=styles.css.map */

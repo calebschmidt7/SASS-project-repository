@@ -1,0 +1,18 @@
+.profile-pic {
+	margin: auto;
+	margin-bottom: 35px;
+
+	@include tablet {
+		float: left;
+  		margin-bottom: 150px;
+	}
+
+	@include desktop {
+		float: left;
+		margin: 0 0 100px 100px;
+	}
+}
+
+.portfolio-gallery img {
+	@extend %widthonehundred; 
+}
